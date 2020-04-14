@@ -13,7 +13,10 @@ Require-Bundle: org.adempiere.base;bundle-version="7.1.0",
  org.adempiere.ui;bundle-version="7.1.0",
  org.adempiere.ui.zk;bundle-version="7.1.0",
  zk;bundle-version="8.6.0",
- zul;bundle-version="8.6.0"
+ zul;bundle-version="8.6.0",
+ org.adempiere.base.process;bundle-version="7.1.0"
 Export-Package: net.frontuari.ftucfio.factory,
+ net.frontuari.ftucfio.process,
  net.frontuari.ftucfio.webui.apps.form
-Service-Component: OSGI-INF/FTUCreateFromInOutFactory.xml
+Service-Component: OSGI-INF/FTUCreateFromInOutFactory.xml,
+ OSGI-INF/FTUProcessRfQCreatePOFactory.xml
